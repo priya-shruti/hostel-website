@@ -1,0 +1,140 @@
+:root {
+  /* --main-color: #d3ad7f; */
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5rem;
+}
+.header .logo img {
+  height: 100px;
+  width: 90px;
+}
+.navbar a {
+  font-size: 1.6rem;
+  color: black;
+  gap: 10px;
+}
+
+.navbar a:hover {
+  padding-bottom: 0.5rem;
+  color: blue;
+  text-decoration: none;
+}
+.sign {
+  background-color: rgb(149, 173, 180);
+  border-radius: 10px;
+  font-size: 1.6rem;
+  padding-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+.name {
+  margin-top: 80px;
+  font-size: 38px;
+  margin-left: 450px;
+}
+.field {
+  border: 2px solid rgb(126, 126, 155);
+  margin-left: 550px;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 200px;
+  padding-bottom: 5px;
+}
+form i {
+  cursor: pointer;
+}
+.text1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 70px;
+  margin-left: 650px;
+}
+.image {
+  margin-left: 350px;
+  margin-top: 50px;
+  height: 340px;
+  width: 300px;
+}
+.small_text {
+  margin-top: 5px;
+  margin-left: 390px;
+  font-size: 13px;
+}
+.image2 {
+  margin-left: 90px;
+  margin-top: 180px;
+  height: 340px;
+  width: 300px;
+}
+.small_text1 {
+  margin-top: 9px;
+  margin-left: 120px;
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+    margin-left: 20px;
+  }
+  .name {
+    margin-left: 90px;
+  }
+  .field {
+    margin-left: 150px;
+    padding-right: 50px;
+  }
+  .text1 {
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  .image {
+    margin-left: 140px;
+  }
+  .small_text {
+    margin-left: 190px;
+  }
+  .image2 {
+    margin-left: 130px;
+  }
+  .small_text1 {
+    margin-left: 150px;
+  }
+}
