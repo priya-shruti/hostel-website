@@ -104,6 +104,46 @@ form i {
   margin-left: 120px;
   font-size: 13px;
 }
+.image3 {
+  height: 340px;
+  width: 300px;
+  margin-left: 600px;
+  margin-top: 40px;
+}
+.small_text2 {
+  margin-top: 9px;
+  margin-left: 650px;
+  font-size: 13px;
+}
+.about_us {
+  font-size: 30px;
+  margin-left: 180px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.small_text3 {
+  font-size: 14px;
+  margin-left: 180px;
+  text-transform: initial;
+}
+.image4 {
+  height: 240px;
+  width: 268px;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.image5 {
+  height: 240px;
+  width: 268px;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.gallery {
+  font-size: 30px;
+  margin-left: 650px;
+  margin-top: 40px;
+  font-weight: bold;
+}
 
 @media (max-width: 991px) {
   html {
@@ -126,15 +166,37 @@ form i {
     margin-left: 150px;
   }
   .image {
-    margin-left: 140px;
+    margin-left: 90px;
   }
   .small_text {
-    margin-left: 190px;
+    margin-left: 100px;
   }
   .image2 {
-    margin-left: 130px;
+    margin-left: 90px;
   }
   .small_text1 {
+    margin-left: 110px;
+  }
+  .image3 {
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+  .small_text2 {
+    margin-left: 100px;
+  }
+  .about_us {
+    margin-left: 180px;
+  }
+  .image4 {
+    margin-left: 90px;
+  }
+  .small_text3 {
+    margin-left: 20px;
+  }
+  .gallery {
     margin-left: 150px;
+  }
+  .image5 {
+    margin-left: 90px;
   }
 }
