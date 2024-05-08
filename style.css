@@ -35,9 +35,18 @@ html::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 5rem;
 }
-.header .logo img {
-  height: 100px;
-  width: 90px;
+body {
+  background-color: lightgray;
+}
+/* .background {
+  background-image: linear-gradient(to bottom right, white, lightcoral);
+} */
+.logo {
+  height: 70px;
+  width: 100px;
+}
+.navbar {
+  background-image: linear-gradient(to bottom right, white, lightcoral);
 }
 .navbar a {
   font-size: 1.6rem;
@@ -59,6 +68,17 @@ html::-webkit-scrollbar-thumb {
   padding-right: 5px;
   padding-bottom: 2px;
 }
+.history {
+  margin-left: 250px;
+  margin-top: 50px;
+  height: 700px;
+  width: 1000px;
+}
+.facilities {
+  margin-top: 50px;
+  height: 760px;
+  width: 1560px;
+}
 .name {
   margin-top: 80px;
   font-size: 38px;
@@ -76,6 +96,7 @@ html::-webkit-scrollbar-thumb {
 form i {
   cursor: pointer;
 }
+
 .text1 {
   font-weight: bold;
   font-size: 40px;
@@ -83,36 +104,48 @@ form i {
   margin-left: 650px;
 }
 .image {
-  margin-left: 350px;
+  margin-left: 210px;
   margin-top: 50px;
-  height: 340px;
-  width: 300px;
+  height: 180px;
+  width: 230px;
+  border-radius: 5px;
 }
 .small_text {
   margin-top: 5px;
-  margin-left: 390px;
+  margin-left: 230px;
   font-size: 13px;
 }
 .image2 {
-  margin-left: 90px;
-  margin-top: 180px;
-  height: 340px;
-  width: 300px;
+  margin-left: 190px;
+  margin-top: 50px;
+  height: 180px;
+  width: 230px;
+  border-radius: 5px;
 }
 .small_text1 {
   margin-top: 9px;
-  margin-left: 120px;
+  margin-left: 180px;
   font-size: 13px;
 }
 .image3 {
-  height: 340px;
-  width: 300px;
-  margin-left: 600px;
-  margin-top: 40px;
+  margin-left: 220px;
+  margin-top: 50px;
+  height: 180px;
+  width: 230px;
+}
+.small_text5 {
+  margin-top: 9px;
+  margin-left: 260px;
+  font-size: 13px;
 }
 .small_text2 {
   margin-top: 9px;
-  margin-left: 650px;
+  margin-left: 210px;
+  font-size: 13px;
+}
+.small_text3 {
+  margin-top: 9px;
+  margin-left: 220px;
   font-size: 13px;
 }
 .about_us {
@@ -121,7 +154,7 @@ form i {
   margin-top: 40px;
   font-weight: bold;
 }
-.small_text3 {
+.small_text4 {
   font-size: 14px;
   margin-left: 180px;
   text-transform: initial;
@@ -131,28 +164,113 @@ form i {
   width: 268px;
   margin-left: 150px;
   margin-top: 40px;
+  border-radius: 5px;
 }
 .image5 {
   height: 240px;
   width: 268px;
   margin-left: 150px;
   margin-top: 60px;
+  border-radius: 5px;
 }
-.gallery {
-  font-size: 30px;
-  margin-left: 650px;
+/* .gallery {
+  background-image: linear-gradient(to bottom right, white, lightcoral);
+} */
+.gallery1 {
+  font-size: 45px;
+  margin-left: 140px;
   margin-top: 40px;
   font-weight: bold;
 }
-
+.line {
+  background-color: rgb(204, 117, 80);
+  margin-left: 140px;
+  height: 5px;
+  width: 7%;
+  text-align: left;
+}
+.contact {
+  background-image: linear-gradient(to bottom right, white, lightcoral);
+}
+.address {
+  font-size: 32px;
+  margin-left: 100px;
+  font-style: italic;
+}
+.address_text {
+  margin-left: 100px;
+  font-size: 20px;
+}
+.address_text2 {
+  margin-left: 100px;
+  font-size: 20px;
+  text-transform: initial;
+}
+.field2 {
+  border: 2px solid rgb(126, 126, 155);
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 200px;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+.field3 {
+  border: 2px solid rgb(126, 126, 155);
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 200px;
+  padding-bottom: 45px;
+  font-size: 15px;
+}
+.submit {
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-left: 350px;
+  margin-top: 40px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-left: 90px;
+  padding-top: 10px;
+  /* font-weight: bold; */
+}
+.instagram {
+  color: white;
+  text-decoration: none;
+}
+.copyright {
+  padding-left: 250px;
+}
+.copyright_text {
+  font-style: italic;
+  padding-left: 250px;
+  text-transform: lowercase;
+}
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+    /* overflow-x: hidden; */
   }
 
   .header {
     padding: 1.5rem 2rem;
     margin-left: 20px;
+  }
+  .navbar {
+    background-color: white;
   }
   .name {
     margin-left: 90px;
@@ -163,7 +281,7 @@ form i {
   }
   .text1 {
     margin-top: 50px;
-    margin-left: 150px;
+    margin-left: 100px;
   }
   .image {
     margin-left: 90px;
@@ -177,6 +295,11 @@ form i {
   .small_text1 {
     margin-left: 110px;
   }
+  .history {
+    margin-left: 50px;
+    height: 300px;
+    width: 420px;
+  }
   .image3 {
     margin-top: 50px;
     margin-left: 90px;
@@ -185,18 +308,60 @@ form i {
     margin-left: 100px;
   }
   .about_us {
-    margin-left: 180px;
+    margin-left: 100px;
+  }
+  .facilities {
+    height: 300px;
+    width: 420px;
+    margin-left: 50px;
+  }
+  .small_text4 {
+    margin-left: 30px;
   }
   .image4 {
     margin-left: 90px;
   }
   .small_text3 {
-    margin-left: 20px;
+    margin-left: 120px;
   }
-  .gallery {
+  .gallery1 {
     margin-left: 150px;
   }
   .image5 {
     margin-left: 90px;
+  }
+  .small_text5 {
+    margin-left: 120px;
+  }
+  .field2 {
+    margin-left: 100px;
+    padding-right: 80px;
+  }
+  .field3 {
+    margin-left: 100px;
+    padding-right: 80px;
+  }
+  .submit {
+    margin-left: 170px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    background-color: lightgray;
+    color: black;
+  }
+  .instagram {
+    color: black;
+  }
+  .copyright {
+    display: none;
+  }
+  .copyright_text {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .sign {
+    display: none;
   }
 }
