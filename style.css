@@ -38,16 +38,27 @@ html::-webkit-scrollbar-thumb {
 body {
   background-color: lightgray;
 }
-/* .background {
-  background-image: linear-gradient(to bottom right, white, lightcoral);
-} */
+.background {
+  background-image: url(images/hostel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 1500px;
+  justify-content: end;
+}
+.enjoy {
+  font-size: 75px;
+  color: rgb(97, 10, 10);
+  margin-left: 500px;
+  padding-top: 180px;
+}
 .logo {
   height: 70px;
   width: 100px;
 }
-.navbar {
+/* .navbar {
   background-image: linear-gradient(to bottom right, white, lightcoral);
-}
+} */
 .navbar a {
   font-size: 1.6rem;
   color: black;
@@ -59,31 +70,72 @@ body {
   color: blue;
   text-decoration: none;
 }
-.sign {
-  background-color: rgb(149, 173, 180);
-  border-radius: 10px;
-  font-size: 1.6rem;
+.apartment {
+  font-size: 25px;
+  margin-left: 550px;
+  text-decoration: underline;
+}
+.booking {
+  margin-left: 700px;
+  border-radius: 8px;
+  font-size: 15px;
   padding-top: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
   padding-bottom: 2px;
+  background-color: yellowgreen;
 }
 .history {
-  margin-left: 250px;
+  /* margin-left: 120px; */
   margin-top: 50px;
-  height: 700px;
-  width: 1000px;
+  height: 308px;
+  width: 400px;
+}
+.paragraph {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding-left: 95px;
+  padding-right: 300px;
+  text-transform: initial;
+}
+.history1 {
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+}
+.hostel2 {
+  /* margin-left: 150px; */
+  height: 350px;
+  width: 600px;
+}
+.h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.welcome {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding-left: 100px;
+  padding-right: 30px;
+  text-transform: initial;
 }
 .facilities {
   margin-top: 50px;
   height: 760px;
   width: 1560px;
 }
-.name {
-  margin-top: 80px;
-  font-size: 38px;
-  margin-left: 450px;
-}
+
 .field {
   border: 2px solid rgb(126, 126, 155);
   margin-left: 550px;
@@ -122,11 +174,7 @@ form i {
   width: 230px;
   border-radius: 5px;
 }
-.small_text1 {
-  margin-top: 9px;
-  margin-left: 180px;
-  font-size: 13px;
-}
+
 .image3 {
   margin-left: 220px;
   margin-top: 50px;
@@ -166,12 +214,18 @@ form i {
   margin-top: 40px;
   border-radius: 5px;
 }
+.image4:hover {
+  transform: scale(1.1);
+}
 .image5 {
   height: 240px;
   width: 268px;
   margin-left: 150px;
   margin-top: 60px;
   border-radius: 5px;
+}
+.image5:hover {
+  transform: scale(1.1);
 }
 /* .gallery {
   background-image: linear-gradient(to bottom right, white, lightcoral);
@@ -189,22 +243,42 @@ form i {
   width: 7%;
   text-align: left;
 }
-.contact {
-  background-image: linear-gradient(to bottom right, white, lightcoral);
+.form {
+  margin-top: 30px;
+  margin-left: 140px;
+  font-size: 15px;
+  font-style: italic;
 }
+/* .contact {
+  background-image: linear-gradient(to bottom right, white, lightcoral);
+} */
 .address {
   font-size: 32px;
-  margin-left: 100px;
+  margin-left: 10px;
+  font-style: italic;
+}
+.address1 {
+  font-size: 32px;
+  margin-left: 70px;
+  font-style: italic;
+}
+.address2 {
+  font-size: 32px;
+  margin-left: 200px;
   font-style: italic;
 }
 .address_text {
-  margin-left: 100px;
+  margin-left: 10px;
   font-size: 20px;
 }
 .address_text2 {
-  margin-left: 100px;
+  margin-left: 70px;
   font-size: 20px;
   text-transform: initial;
+}
+.address_text3 {
+  margin-left: 200px;
+  font-size: 20px;
 }
 .field2 {
   border: 2px solid rgb(126, 126, 155);
@@ -236,7 +310,7 @@ form i {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 5px;
-  margin-left: 350px;
+  margin-left: 280px;
   margin-top: 40px;
 }
 .footer {
@@ -250,6 +324,7 @@ form i {
 .instagram {
   color: white;
   text-decoration: none;
+  margin-left: 70px;
 }
 .copyright {
   padding-left: 250px;
@@ -262,7 +337,7 @@ form i {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
 
   .header {
@@ -272,9 +347,46 @@ form i {
   .navbar {
     background-color: white;
   }
-  .name {
-    margin-left: 90px;
+  .background {
+    height: 300px;
+    width: 400px;
   }
+  .enjoy {
+    font-size: 40px;
+    margin-left: 80px;
+    padding-top: 130px;
+  }
+  .apartment {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+  .booking {
+    margin-left: 150px;
+    margin-top: 5px;
+  }
+  .h1 {
+    margin-right: 5px;
+  }
+  .hostel2 {
+    display: none;
+    height: 300px;
+    width: 450px;
+  }
+  .history {
+    display: none;
+    margin-left: 10px;
+    height: 300px;
+    width: 490px;
+  }
+  .paragraph {
+    background-color: lightgray;
+    color: black;
+    /* margin-left: 50px; */
+    padding-right: 170px;
+  }
+  /* .history1 {
+    margin-left: 25px;
+  } */
   .field {
     margin-left: 150px;
     padding-right: 50px;
@@ -286,26 +398,27 @@ form i {
   .image {
     margin-left: 90px;
   }
-  .small_text {
+  /* .small_text {
     margin-left: 100px;
-  }
+  } */
   .image2 {
     margin-left: 90px;
   }
-  .small_text1 {
+  /* .small_text1 {
     margin-left: 110px;
-  }
-  .history {
-    margin-left: 50px;
-    height: 300px;
-    width: 420px;
+  } */
+  .line {
+    width: 15%;
   }
   .image3 {
     margin-top: 50px;
     margin-left: 90px;
   }
-  .small_text2 {
+  /* .small_text2 {
     margin-left: 100px;
+  } */
+  .form {
+    margin-left: 70px;
   }
   .about_us {
     margin-left: 100px;
@@ -313,26 +426,26 @@ form i {
   .facilities {
     height: 300px;
     width: 420px;
-    margin-left: 50px;
+    margin-left: 10px;
   }
-  .small_text4 {
+  /* .small_text4 {
     margin-left: 30px;
-  }
+  } */
   .image4 {
     margin-left: 90px;
   }
-  .small_text3 {
+  /* .small_text3 {
     margin-left: 120px;
-  }
+  } */
   .gallery1 {
-    margin-left: 150px;
+    margin-left: 100px;
   }
   .image5 {
     margin-left: 90px;
   }
-  .small_text5 {
+  /* .small_text5 {
     margin-left: 120px;
-  }
+  } */
   .field2 {
     margin-left: 100px;
     padding-right: 80px;
@@ -349,19 +462,27 @@ form i {
     background-color: lightgray;
     color: black;
   }
+  .address1 {
+    margin-left: 5px;
+  }
+  .address_text2 {
+    margin-left: 5px;
+  }
   .instagram {
     color: black;
+    margin-left: 5px;
+  }
+  .address2 {
+    margin-top: 15px;
+    margin-left: 5px;
+  }
+  .address_text3 {
+    margin-left: 5px;
   }
   .copyright {
     display: none;
   }
   .copyright_text {
-    display: none;
-  }
-  .login {
-    display: none;
-  }
-  .sign {
     display: none;
   }
 }
