@@ -36,7 +36,7 @@ html::-webkit-scrollbar-thumb {
   border-radius: 5rem;
 }
 body {
-  background-color: lightgray;
+  background-color: rgb(207, 195, 195);
 }
 .background {
   background-image: url(images/hostel.png);
@@ -44,7 +44,7 @@ body {
   background-size: cover;
   height: 550px;
   width: 1500px;
-  justify-content: end;
+  /* justify-content: end; */
 }
 .enjoy {
   font-size: 75px;
@@ -71,8 +71,9 @@ body {
   text-decoration: none;
 }
 .apartment {
-  font-size: 25px;
-  margin-left: 550px;
+  font-size: 40px;
+  padding-top: 70px;
+  margin-left: 450px;
   text-decoration: underline;
 }
 .booking {
@@ -191,22 +192,22 @@ form i {
   margin-left: 210px;
   font-size: 13px;
 }
-.small_text3 {
+/* .small_text3 {
   margin-top: 9px;
   margin-left: 220px;
   font-size: 13px;
-}
+} */
 .about_us {
   font-size: 30px;
   margin-left: 180px;
   margin-top: 40px;
   font-weight: bold;
 }
-.small_text4 {
+/* .small_text4 {
   font-size: 14px;
   margin-left: 180px;
   text-transform: initial;
-}
+} */
 .image4 {
   height: 240px;
   width: 268px;
@@ -230,6 +231,35 @@ form i {
 /* .gallery {
   background-image: linear-gradient(to bottom right, white, lightcoral);
 } */
+.cctv {
+  height: 100px;
+  width: 150px;
+  margin-left: 140px;
+  border-radius: 10px;
+}
+.cctv_text {
+  font-size: 10px;
+  margin-left: 200px;
+  margin-top: 4px;
+}
+.washing_text {
+  font-size: 10px;
+  margin-left: 180px;
+  margin-top: 4px;
+}
+.fridge {
+  height: 150px;
+  width: 170px;
+  margin-left: 140px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.cooler {
+  height: 150px;
+  width: 170px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
 .gallery1 {
   font-size: 45px;
   margin-left: 140px;
@@ -366,6 +396,8 @@ form i {
   }
   .h1 {
     margin-right: 5px;
+    background-color: lightgray;
+    color: black;
   }
   .hostel2 {
     display: none;
@@ -377,6 +409,13 @@ form i {
     margin-left: 10px;
     height: 300px;
     width: 490px;
+  }
+  .welcome {
+    background-color: lightgray;
+    color: black;
+  }
+  .black {
+    background-color: lightgray;
   }
   .paragraph {
     background-color: lightgray;
@@ -417,6 +456,22 @@ form i {
   /* .small_text2 {
     margin-left: 100px;
   } */
+  .cctv {
+    margin-left: 170px;
+  }
+  .cctv_text {
+    margin-left: 210px;
+    padding-top: 20px;
+  }
+  .cooler {
+    margin-left: 140px;
+  }
+  .fridge {
+    margin-left: 140px;
+  }
+  .washing_text {
+    margin-left: 210px;
+  }
   .form {
     margin-left: 70px;
   }
@@ -484,5 +539,10 @@ form i {
   }
   .copyright_text {
     display: none;
+  }
+}
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
   }
 }
